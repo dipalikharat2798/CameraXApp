@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CameraXApp</string>
+    <string-array name="heading">
+        <item>VIN</item>
+        <item>Odometer</item>
+        <item>DriverFrontCorner</item>
+        <item>FrontOfVehicle</item>
+        <item>PassengerFrontCorner</item>
+    </string-array>
+</resources>
