@@ -99,9 +99,7 @@ class CameraActivity : AppCompatActivity(), CustomAdapter.RecyclerImageClick {
 
         retake_btnm1.setOnClickListener() {
             Log.d(TAG + "Retake", "onCreate: " + count)
-
-            for (i in count..4)
-                data1.add(count, "")
+            data1.add(count, "")
             viewFinder.setVisibility(View.VISIBLE)
             tapToCapture_tvm1.setVisibility(View.VISIBLE)
             saveAndNext_btnm1.setVisibility(View.GONE)
